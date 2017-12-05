@@ -1,0 +1,25 @@
+{
+    "name": "kelvinsouza/infobase",
+    "description": "",
+    "authors": [
+        {
+            "name": "Kelvin Souza",
+            "email": "kelvin.developer@icloud.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\InfoBase\\Providers\\InfoBaseServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\InfoBase\\": ""
+        }
+    }
+}
